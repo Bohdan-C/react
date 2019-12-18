@@ -14,9 +14,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,5 +36,5 @@
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/Bohdan-C/react.git"
+  "homepage": "https://bohdan-c.github.io/react/"
 }
