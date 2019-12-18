@@ -1,0 +1,21 @@
+.statistics {
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 270px;
+  height: 130px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.percentage {
+  display: block;
+}
+
+.item {
+  width: 65px;
+  height: 60px;
+}

@@ -1,5 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import user from './user.json';
+import Statistical from './statistical.json';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+import App from './components/App';
+ReactDOM.render(
+  <App user={user} statistics={Statistical} />,
+  document.getElementById('root'),
+);
